@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSearchApi", "SimpleSearchApi.csproj", "{AC3B8139-6A51-0663-443E-C0EB7CF1BC17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSearchApi.Tests", "Tests\SimpleSearchApi.Tests\SimpleSearchApi.Tests.csproj", "{B1A2D6AD-7C10-4F6F-9C54-4F58C6D164AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3B8139-6A51-0663-443E-C0EB7CF1BC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3B8139-6A51-0663-443E-C0EB7CF1BC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3B8139-6A51-0663-443E-C0EB7CF1BC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3B8139-6A51-0663-443E-C0EB7CF1BC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A2D6AD-7C10-4F6F-9C54-4F58C6D164AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A2D6AD-7C10-4F6F-9C54-4F58C6D164AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A2D6AD-7C10-4F6F-9C54-4F58C6D164AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A2D6AD-7C10-4F6F-9C54-4F58C6D164AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19F20CCC-DE64-402A-A17A-C828520E1CAA}
+	EndGlobalSection
+EndGlobal
